@@ -12,7 +12,7 @@ FileConvert is a React application for converting documents and images directly 
 | JPG/JPEG | HEIC | Browser-side image conversion |
 | HEIC/HEIF | JPG | Browser-side image conversion |
 
-Files larger than 50 MB are rejected. Documents larger than 25 MB are also subject to a stricter performance warning.
+Files larger than 50 MB are rejected. Documents larger than 25 MB are also rejected by the current validation because conversion can be memory-intensive.
 
 ## Technology
 
